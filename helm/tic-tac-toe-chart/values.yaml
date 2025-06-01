@@ -1,0 +1,9 @@
+namespace: tic-tac-toe
+replicaCount: 1
+
+image:
+  repository: ghcr.io/gesatessa/devsecops-cicd_react_ts
+  tag: v1
+  pullSecret: ghcr-secret
+
+containerPort: 5173
