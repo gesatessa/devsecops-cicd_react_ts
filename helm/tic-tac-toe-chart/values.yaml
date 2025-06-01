@@ -6,4 +6,4 @@ image:
   tag: v1
   pullSecret: ghcr-secret
 
-containerPort: 5173
+containerPort: 80
